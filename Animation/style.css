@@ -26,3 +26,12 @@
 .letters span:nth-child(4n-2) {
     color: #000;
 }
+
+@keyframes falling {
+    to { top: 110vh; }
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
