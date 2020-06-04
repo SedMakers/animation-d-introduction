@@ -1,0 +1,8 @@
+.letters span{
+    position: fixed;
+    top: -25vw;
+    font-size: 20vw;
+    animation:
+        falling 10s ease-in-out infinite;
+        rotate: 5s linear infinite;
+}
